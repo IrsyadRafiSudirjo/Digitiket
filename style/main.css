@@ -20,6 +20,11 @@ header .btn-login:hover {
 header .btn-buat-tiket {
   background-color: #7014a9;
   color: #ffffff;
+  transition: all 0.5s ease;
+}
+header .btn-buat-tiket:hover {
+  background-color: #8118c2;
+  color: #ffffff;
 }
 
 .navigation {
@@ -77,9 +82,20 @@ table */
   background-color: #7014a9;
   color: #ffffff;
   width: 100%;
+  transition: all 0.5s ease;
+}
+.btn-today:hover {
+  background-color: #8118c2;
+  color: #ffffff;
 }
 .btn-weekend {
   background-color: #ea24be;
+  color: #ffffff;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+.btn-weekend:hover {
+  background-color: #f526c8;
   color: #ffffff;
   width: 100%;
 }
@@ -116,6 +132,13 @@ page-contents */
 
 .btn-checkout {
   background-color: #7014a9;
+  color: #ffffff;
+  width: 100%;
+  height: 47px;
+  transition: all 0.5s ease;
+}
+.btn-checkout:hover {
+  background-color: #8118c2;
   color: #ffffff;
   width: 100%;
   height: 47px;

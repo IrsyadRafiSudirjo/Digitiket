@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* 
+navbar */
+
+header .btn-login {
+  background-color: #eadcf2;
+  color: #cd7bff;
+  transition: all 0.5s ease;
+}
+
+header .btn-login:hover {
+  background-color: #7014a9;
+  color: #ffffff;
+}
+header .btn-buat-tiket {
+  background-color: #7014a9;
+  color: #ffffff;
+}
+
+.navigation {
+  border-top: 1px solid #eeeeee;
+}
+
+.navigation .col-2 {
+  border: 1px solid #eeeeee;
+}
+.navigation .col-3 {
+  border: 1px solid #eeeeee;
+}
+.navigation .location {
+  border-right: transparent;
+}
+
+.navigation .blank {
+  border-right: transparent;
+  border-left: transparent;
+}
+.navigation .blankdua {
+  border: transparent;
+}
+/* 
+hero */
+.hero .container {
+  margin-top: 50px;
+  border: 1px solid #eeeeee;
+}
+
+.gallery img {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.gallery .main-image {
+  width: 500px;
+}
+.gallery .thumbnail-image {
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+}
+.gallery .thumbnail-image:hover {
+  border: 2px solid #7014a9;
+}
+.gallery .thumbnail-image.active {
+  border: 2px solid #7014a9;
+}
+/* 
+table */
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #eadcf2;
+}
+.btn-today {
+  background-color: #7014a9;
+  color: #ffffff;
+  width: 100%;
+}
+.btn-weekend {
+  background-color: #ea24be;
+  color: #ffffff;
+  width: 100%;
+}
+/* 
+information */
+.information {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.information .container {
+  background-color: #eadcf2;
+}
+
+/* 
+page-contents */
+.contents {
+  border: 2px solid #eeeeee;
+}
+
+.pilih-tiket {
+  background-color: #f6f6f6;
+  border: 1px solid #f4f4f4;
+}
+
+.total .price {
+  background-color: #e6e6e6;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+}
+
+.btn-checkout {
+  background-color: #7014a9;
+  color: #ffffff;
+  width: 100%;
+  height: 47px;
+}
+/* 
+footer */
+
+footer {
+  margin-top: 115px;
+  line-height: 191.5%;
+}
+
+@media (max-width: 992px) {
+}
